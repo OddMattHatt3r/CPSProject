@@ -17,6 +17,9 @@ import Spinner from './components/4. Utility Components/Spinner/Spinner';
 import { name } from './my_info';
 import ScrollToTopButton from './components/4. Utility Components/ScrollToTopButton/ScrollToTopButton';
 
+// 5. ChatGPT Components
+import CoverLetterGenerator from './components/5. ChatGPT Integration/CoverLetterGenerator/CoverLetterGenerator';
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -40,7 +43,7 @@ function App() {
           <ScrollToTopButton />
           <Projects />
           <AboutMe />
-          
+          <CoverLetterGenerator />
         </>
       )}
     </>
