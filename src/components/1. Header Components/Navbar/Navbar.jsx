@@ -64,6 +64,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
+                <a href="#CoverLetterGenerator" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                  <span className='link-span'>Cover Letter Generator</span>
+                </a>
+              </li>
+              <li className="nav-item">
                 <a href={url} className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
                   <span className='link-span'>
                     Resume<i className="icon lni lni-download"></i>
